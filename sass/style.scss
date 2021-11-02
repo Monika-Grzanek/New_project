@@ -8,6 +8,10 @@ $font-bold: 'Zen Old Mincho', serif;
 
 /* Global */
 
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
 .container {
     padding-top:108px;
     padding-bottom:108px;
