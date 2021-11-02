@@ -6,24 +6,38 @@ $font-cursive: 'Dancing Script', cursive;
 $font-normal: 'Open Sans Condensed', sans-serif;
 $font-bold: 'Zen Old Mincho', serif;
 
+/* Global */
+
+.container {
+    padding-top:108px;
+    padding-bottom:108px;
+}
+
+body {
+    margin: 0;
+}
+
 /* Start */
 
 .start {
     background-image: url("https://images.pexels.com/photos/3839648/pexels-photo-3839648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    margin: 0 auto;
 }
 
 .navigation {
     display: flex;
+    padding: 25px 10px 40px 10px;
 }
 
 .name {
     margin: 10px;
     font-size: 25px;
-    padding-top: 10px;
+    padding: 10px 250px 10px 150px;
     color: $color-two;
     text-decoration: none;
     font-size: 45px;
     font-family: $font-cursive;  
+    text-align: center;
 }
 
 .navigation ul{
@@ -34,6 +48,7 @@ $font-bold: 'Zen Old Mincho', serif;
 .navigation ul li {
     display: inline-block;
     margin: 10px;
+    text-align: right;
 }
 
 .navigation ul li a {
@@ -46,15 +61,13 @@ $font-bold: 'Zen Old Mincho', serif;
 }
 
 .title-page {
-    margin: 10px 20px;
-    padding-top: 15%;
-    height:100vh;
     text-align: center;
+    line-height: 10px;
 }
 
 .title {
     color: $color-one;
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 100;
 }
 
@@ -63,6 +76,8 @@ $font-bold: 'Zen Old Mincho', serif;
     font-variant: small-caps;
     font-size: 72px;
     font-family: $font-bold;
+    font-weight: 600;
+    padding-bottom: 75px;
 }
 
 .btn {
@@ -75,4 +90,52 @@ $font-bold: 'Zen Old Mincho', serif;
     font-variant: small-caps;
     margin: 24px auto 0 auto;
     padding: 16px 30px;
+}
+
+/* Services */
+
+.page-title {
+    text-align: center;
+    font-size: 45px;
+    font-family: $font-bold;
+    font-variant: small-caps;
+    font-weight: bold;
+    line-height: 8px;;
+}
+
+.page-subtitle {
+    text-align: center;
+    font-size: 19px;
+    font-style: oblique;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 96px 0;
+}
+
+.box {
+    flex: 0 0 33.333%;
+    padding: 25px;
+    text-align: center;
+}
+
+.box h4 {
+    font-size: 24px;
+}
+
+.box p {
+    font-size: 18px;
+    padding: 0
+}
+
+.box i {
+    font-size: 30px;
+    padding: 10px;
+    color: $color-two;
+    border: solid 3px $color-two;
+    border-radius: 50%;
 }
