@@ -1,4 +1,46 @@
+/* Start */
 .start {
   background-image: url("https://images.pexels.com/photos/3839648/pexels-photo-3839648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHVJQUF1STtBQ0MzSSIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+
+.navigation {
+  display: flex;
+}
+
+.name {
+  margin: 10px;
+  font-size: 25px;
+  padding-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-size: 45px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.navigation ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Zen Old Mincho", serif;
+  font-size: 25px;
+  font-variant: small-caps;
+}
+
+.title-page {
+  margin: 30px 20px;
+  height: 100vh;
+}
+
+.title {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFNQSxVQUFBO0FBRUE7RUFDSSx1SUFBdUk7QUNOM0k7O0FEU0E7RUFDSSxhQUFhO0FDTmpCOztBRFNBO0VBQ0ksWUFBWTtFQUNaLGVBQWU7RUFDZixpQkFBaUI7RUFDakIsWUFwQmU7RUFxQmYscUJBQXFCO0VBQ3JCLHNDQXBCb0M7RUFxQnBDLGVBQWU7QUNObkI7O0FEVUE7RUFDSSxxQkFBcUI7RUFDckIsaUJBQWlCO0FDUHJCOztBRFVBO0VBQ0kscUJBQXFCO0VBQ3JCLFlBQVk7QUNQaEI7O0FEVUE7RUFDSSxZQXRDZTtFQXVDZixxQkFBcUI7RUFDckIsb0NBcEMrQjtFQXFDL0IsZUFBZTtFQUNmLHdCQUF3QjtBQ1A1Qjs7QURVQTtFQUNJLGlCQUFpQjtFQUNqQixhQUFZO0FDUGhCOztBRFVBO0VBQ0ksOENBaEQyQztBQ3lDL0MiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

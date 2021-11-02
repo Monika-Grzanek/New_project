@@ -1,3 +1,63 @@
+$color-one: white;
+$color-two: #ffd32a
+
+$font-cursive: 'Dancing Script', cursive;
+$font-normal: 'Open Sans Condensed', sans-serif;
+$font-bold: 'Zen Old Mincho', serif;
+
+/* Start */
+
 .start {
     background-image: url("https://images.pexels.com/photos/3839648/pexels-photo-3839648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.navigation {
+    display: flex;
+}
+
+.name {
+    margin: 10px;
+    font-size: 25px;
+    padding-top: 10px;
+    color: $color-two;
+    text-decoration: none;
+    font-family: $font-cursive;
+    font-size: 45px;
+    
+}
+
+.navigation ul{
+    list-style-type: none;
+    text-align: right;
+} 
+
+.navigation ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.navigation ul li a {
+    color: $color-one;
+    text-decoration: none;
+    font-family: $font-bold;
+    font-size: 25px;
+    font-variant: small-caps;
+}
+
+.title-page {
+    margin: 30px 20px;
+    height:100vh;
+}
+
+.title {
+    font-family: $font-normal;
+    color: $color-one;
+    font-size: 60px;
+}
+
+.subtitle {
+    font-family: $font-bold;
+    color: $color-one;
+    font-variant: small-caps;
+    font-size: 72px;
 }
