@@ -1,10 +1,6 @@
 $color-one: white;
 $color-two: #ffd32a
 
-$font-cursive: 'Dancing Script', cursive;
-$font-normal: 'Open Sans Condensed', sans-serif;
-$font-bold: 'Zen Old Mincho', serif;
-
 /* Start */
 
 .start {
@@ -21,7 +17,6 @@ $font-bold: 'Zen Old Mincho', serif;
     padding-top: 10px;
     color: $color-two;
     text-decoration: none;
-    font-family: $font-cursive;
     font-size: 45px;
     
 }
@@ -39,7 +34,6 @@ $font-bold: 'Zen Old Mincho', serif;
 .navigation ul li a {
     color: $color-one;
     text-decoration: none;
-    font-family: $font-bold;
     font-size: 25px;
     font-variant: small-caps;
 }
@@ -50,13 +44,11 @@ $font-bold: 'Zen Old Mincho', serif;
 }
 
 .title {
-    font-family: $font-normal;
     color: $color-one;
     font-size: 60px;
 }
 
 .subtitle {
-    font-family: $font-bold;
     color: $color-one;
     font-variant: small-caps;
     font-size: 72px;
