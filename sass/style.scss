@@ -1,5 +1,10 @@
 $color-one: white;
-$color-two: #ffd32a
+$color-two: #ffd32a;
+$color-three: black;
+
+$font-cursive: 'Dancing Script', cursive;
+$font-normal: 'Open Sans Condensed', sans-serif;
+$font-bold: 'Zen Old Mincho', serif;
 
 /* Start */
 
@@ -18,7 +23,7 @@ $color-two: #ffd32a
     color: $color-two;
     text-decoration: none;
     font-size: 45px;
-    
+    font-family: $font-cursive;  
 }
 
 .navigation ul{
@@ -35,21 +40,39 @@ $color-two: #ffd32a
     color: $color-one;
     text-decoration: none;
     font-size: 25px;
+    font-weight: 600;
     font-variant: small-caps;
+    font-family: $font-normal;
 }
 
 .title-page {
-    margin: 30px 20px;
+    margin: 10px 20px;
+    padding-top: 15%;
     height:100vh;
+    text-align: center;
 }
 
 .title {
     color: $color-one;
     font-size: 60px;
+    font-weight: 100;
 }
 
 .subtitle {
     color: $color-one;
     font-variant: small-caps;
     font-size: 72px;
+    font-family: $font-bold;
+}
+
+.btn {
+    text-decoration: none;
+    color: $color-three;
+    border: solid 1px $color-one;
+    background-color: $color-two;
+    border-radius: 5px;
+    color: $color-one;
+    font-variant: small-caps;
+    margin: 24px auto 0 auto;
+    padding: 16px 30px;
 }
