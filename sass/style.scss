@@ -136,7 +136,7 @@ body {
 
 .box {
     flex: 0 0 33.333%;
-    padding: 25px;
+    padding: 35px;
     text-align: center;
 }
 
@@ -214,4 +214,55 @@ body {
 
 .social-links li i {
     color: $color-one;
+}
+
+/* Media */
+
+@media(max-width: 767px) {
+    .wrapper {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 767px) {
+    .box {
+        flex: 0 0 100%;
+    }
+}
+
+@media(max-width: 767px) {
+    .title-page {
+        text-align: center;
+        line-height: 1.0;
+    }
+}
+
+@media(max-width: 767px) {
+    .navigation {
+        display: block;
+    }
+}
+
+@media(max-width: 767px) {
+    .name {
+        padding: 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .navigation ul li a {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 767px) {
+    .navigation ul {
+        margin: 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .page-title {
+        line-height: 1.0;
+    }
 }
